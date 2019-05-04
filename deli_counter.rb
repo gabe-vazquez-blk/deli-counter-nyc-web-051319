@@ -4,13 +4,9 @@ def line(katz_deli)
   if katz_deli.length() == 0 
     puts "The line is currently empty."
   else
-    
-    customers.push(katz_deli)
-    
-    customers = customers.join(" ")
-    
+    katz_deli.each_with_index.map do |customer, position|
+      "#{position + 1}. #{customer} "
   end
-  
-  puts "The line is currently: " + customers
-  
+  katz_deli = katz_deli.join(" ")
+  "The line is currently: " + katz_deli
 end
