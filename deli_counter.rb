@@ -6,6 +6,7 @@ def line(katz_deli)
   else
     katz_deli.each_with_index.map do |customer, position|
       "#{position + 1}. #{customer} "
+    end
   end
   katz_deli = katz_deli.join(" ")
   "The line is currently: " + katz_deli
