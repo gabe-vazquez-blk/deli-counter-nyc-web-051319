@@ -4,7 +4,7 @@ def line(katz_deli)
   if katz_deli.length() == 0 
     puts "The line is currently empty."
   else
-    katz_deli.each_with_index.map do |customer, position|
+    katz_deli.each_with_index.map! do |customer, position|
       "#{position + 1}. #{customer} "
     end
   end
