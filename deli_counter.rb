@@ -17,6 +17,6 @@ def take_a_number(katz_deli, customer)
   if katz_deli.length == 1
     puts "Welcome, #{customer}. You are number 1 in line."
   else
-    puts "Welcome, #{customer}. You are number #{katz_deli.length + 1} in line."
+    puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."
   end
 end
