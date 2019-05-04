@@ -14,6 +14,6 @@ end
 
 def take_a_number(katz_deli, customer)
   if katz_deli.length == 0
-    
+    puts "Welcome, #{customer}. You are number 1 in line."
   katz_deli.push(customer)
 end
