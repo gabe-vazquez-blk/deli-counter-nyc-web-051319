@@ -5,10 +5,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli = katz_deli.each_with_index.map do |customer, position|
-      "#{position + 1}. #{customer} "
+      "#{position + 1}. #{customer}"
     end
   end
-  puts katz_deli 
-  #= katz_deli.join(" ")
-  #katz_deli
+  katz_deli = katz_deli.join(" ")
+  puts "The line is currently: " + katz_deli
 end
