@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     
-    customers.push(katz_deli.each_with_index(|customer, position| "#{position}. #{customer}"))
+    customers.push(katz_deli.each_with_index{|customer, position| "#{position}. #{customer}"})
     
     customers = customers.join(" ")
     
