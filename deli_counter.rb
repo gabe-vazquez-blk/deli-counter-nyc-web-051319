@@ -9,5 +9,5 @@ def line(katz_deli)
     end
   end
   katz_deli = katz_deli.join(" ")
-  puts "The line is currently: " + katz_deli
+  katz_deli
 end
