@@ -13,5 +13,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, customer)
+  if katz_deli.length == 0
+    
   katz_deli.push(customer)
 end
