@@ -8,6 +8,7 @@ def line(katz_deli)
       "#{position + 1}. #{customer} "
     end
   end
-  katz_deli = katz_deli.join(" ")
-  katz_deli
+  katz_deli 
+  #= katz_deli.join(" ")
+  #katz_deli
 end
